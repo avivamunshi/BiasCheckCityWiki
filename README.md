@@ -71,7 +71,7 @@ Wikipedia editors are a key driving force behind the content on the platform. Ho
 I also noticed that Wikipedia is avaliable in multiple languages, and thus some kind of **language bias** may creep in. I expected that articles in widely spoken languages, such as English or Spanish, would have more comprehensive coverage compared to articles in less common languages. This bias could affect the representation of information from different regions of the world.
 
 ### What (potential) sources of bias did you discover in the course of your data processing and analysis?  
-Given the tech-savvy population on the West Coast, I definitely found it surprising to see that the Pacific Division had the fewest articles per capita. On the other hand, this region may have fewer towns than its population, which would explain the lower density of articles.
+I definitely found it surprising to see that the Pacific Division had the fewest articles per capita. On the other hand, this region may have fewer towns than its population, which would explain the lower density of articles.
 
 ### What might your results suggest about (English) Wikipedia as a data source?  
 I saw that Nebraska and Connecticut had no scraped content, which, in my opinion, points to possible issues with data completeness. Researchers like myself need to be ready for the possibility of data gaps and abnormalities while utilizing Wikipedia as a data source. They should investigate solutions for these problems, which can entail creating unique scraping algorithms made to fill in these gaps or applying statistical approaches to impute values into missing data.  
