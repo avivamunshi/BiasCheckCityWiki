@@ -15,7 +15,7 @@ This project utilizes data from various sources under different licenses:
 ## Data Sources
 [US Cities Wikipedia Dataset](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  - `us_cities_by_state_SEPT.2023.csv`  
 [US Census Bureau Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html)  - `NST-EST2022-POP.xlsx`  
-[US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  - `US States by Region - US Census Bureau.xlsx`
+[US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  - `US States by Region - US Census Bureau.xlsx`  
 These have also been saved in the `data` folder of this repository with their corresponding names above.  
 
 ## API Documentation
@@ -54,15 +54,14 @@ In more detail, the code performs the following data processing steps:
 These results have been saved as csv's with their corresponding names above in the `results` folder of this repo.  
 
 
-## Data Files  
+## Data Output Files  
 `article_1.csv`: Contains Wikipedia article data. Saved in `data` folder.  
 `quality_1.csv`: Contains quality scores for articles.  Saved in `data` folder.  
-`wp_scored_city_articles_by_state.csv`: Merged dataset with state, regional division, population, article title, revision ID, and article quality.  Saved in `data` folder.  
+`wp_scored_city_articles_by_state.csv`: Merged dataset with state, regional division, population, article title, revision ID, and article quality.  Along with being uploaded to [Google Drive](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv?usp=drive_link), these have also been saved in `data` folder.  
 
 
 ## Known Issues and Special Considerations  
-Authentication: Ensure that you have obtained the required access token for the Wikimedia APIs.  
-Data Quality: Be aware that Wikipedia data can vary in quality, and the quality scores are estimations.   
+Authentication: Ensure that you have obtained the required access token for the Wikimedia APIs. Instructions on how to do so are provided in the code.    
 
 ## Research Implications   
 ### What biases did you expect to find in the data (before you started working with it), and why? 
