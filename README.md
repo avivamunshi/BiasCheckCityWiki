@@ -31,7 +31,7 @@ Before running this code, you need to adjust the following variables:
 The code performs the following data processing steps:  
 1. Accesses Wikipedia page information using the MediaWiki REST API.
    
-3. Retrieves quality scores for Wikipedia articles using the ORES API.
+3. Retrieves quality scores for Wikipedia articles using the ORES API.   
    a. There are articles in which we were unable to extract quality scores. These have been saved and listed within the notebook.
     
 5. Combines datasets and standardizes data.
