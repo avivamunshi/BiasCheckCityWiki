@@ -17,7 +17,7 @@ This project utilizes data from various sources under different licenses:
 [US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
 
 ## API Documentation
-[MediaWiki REST API[(https://www.mediawiki.org/wiki/API:Main_page)  
+[MediaWiki REST API](https://www.mediawiki.org/wiki/API:Main_page)  
 [ORES API](https://ores.wikimedia.org/docs)  
 [LiftWing Documentation](https://wikitech.wikimedia.org/wiki/Machine_Learning/LiftWing/Usage)  
 
