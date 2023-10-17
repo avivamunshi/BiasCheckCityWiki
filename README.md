@@ -41,7 +41,7 @@ In more detail, the code performs the following data processing steps:
     
 5. **Combines datasets and standardizes data.**   
    
-7. **Conducts data analysis to calculate articles per capita and high-quality articles per capita.**  
+7. **Conducts data analysis to calculate total-articles-per-population (a ratio representing the number of articles per person)  and high-quality-articles-per-population (a ratio representing the number of high-quality articles per person) on a state-by-state and divisional basis.**   
    
 9. **Results from the analysis showcasing the following answers:**     
    a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order)   
