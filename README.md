@@ -13,9 +13,10 @@ This project utilizes data from various sources under different licenses:
 4. Some code examples were developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.0 - August 15, 2023   
 
 ## Data Sources
-[US Cities Wikipedia Dataset](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
-[US Census Bureau Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html)  
-[US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
+[US Cities Wikipedia Dataset](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  - `us_cities_by_state_SEPT.2023.csv`  
+[US Census Bureau Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html)  - `NST-EST2022-POP.xlsx`  
+[US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  - `US States by Region - US Census Bureau.xlsx`
+These have also been saved in the `data` folder of this repository with their corresponding names above.  
 
 ## API Documentation
 [MediaWiki REST API](https://www.mediawiki.org/wiki/API:Main_page)  
@@ -44,20 +45,20 @@ In more detail, the code performs the following data processing steps:
 7. **Conducts data analysis to calculate total-articles-per-population (a ratio representing the number of articles per person)  and high-quality-articles-per-population (a ratio representing the number of high-quality articles per person) on a state-by-state and divisional basis.**   
    
 9. **Results from the analysis showcasing the following answers:**     
-   a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order) - analysis_1  
-   b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order) - analysis_2       
-   c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order) - analysis_3       
-   d. Bottom 10 US states by high quality: The 10 US states with the lowest high quality articles per capita (in ascending order) - analysis_4       
-   e. Census divisions by total coverage: A rank ordered list of US census divisions (in descending order) by total articles per capita - analysis_5     
-   f. Census divisions by high quality coverage: Rank ordered list of US census divisions (in descending order) by high quality articles per capita - analysis_6  
+   a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order) - `analysis_1.csv`    
+   b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order) - `analysis_2.csv`         
+   c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order) - `analysis_3.csv`         
+   d. Bottom 10 US states by high quality: The 10 US states with the lowest high quality articles per capita (in ascending order) - `analysis_4.csv`         
+   e. Census divisions by total coverage: A rank ordered list of US census divisions (in descending order) by total articles per capita - `analysis_5.csv`       
+   f. Census divisions by high quality coverage: Rank ordered list of US census divisions (in descending order) by high quality articles per capita - `analysis_6.csv`    
 These results have been saved as csv's with their corresponding names above in the `results` folder of this repo.  
 
 
 ## Data Files  
-`article_1.csv`: Contains Wikipedia article data.  
-`quality_1.csv`: Contains quality scores for articles.  
-`wp_scored_city_articles_by_state.csv`: Merged dataset with state, regional division, population, article title, revision ID, and article quality.  
-Output files based on analysis results. This has also been saved in the repository as instructed under the same name.  
+`article_1.csv`: Contains Wikipedia article data. Saved in `data` folder.  
+`quality_1.csv`: Contains quality scores for articles.  Saved in `data` folder.  
+`wp_scored_city_articles_by_state.csv`: Merged dataset with state, regional division, population, article title, revision ID, and article quality.  Saved in `data` folder.  
+
 
 ## Known Issues and Special Considerations  
 Authentication: Ensure that you have obtained the required access token for the Wikimedia APIs.  
