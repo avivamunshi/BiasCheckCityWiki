@@ -28,11 +28,16 @@ Before running this code, you need to adjust the following variables:
 
 ## Data Processing   
 The code performs the following data processing steps:  
-1. Accesses Wikipedia page information using the MediaWiki REST API.  
-2. Retrieves quality scores for Wikipedia articles using the ORES API.  
-3. Combines datasets and standardizes data.  
-4. Conducts data analysis to calculate articles per capita and high-quality articles per capita.
-5. Results from the analysis showcasing the following answers:   
+1. Accesses Wikipedia page information using the MediaWiki REST API.
+   
+3. Retrieves quality scores for Wikipedia articles using the ORES API.
+   a. There are articles in which we were unable to extract quality scores. These have been saved and listed within the notebook.
+    
+5. Combines datasets and standardizes data.
+   
+7. Conducts data analysis to calculate articles per capita and high-quality articles per capita.
+   
+9. Results from the analysis showcasing the following answers:   
    a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order)   
    b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order)    
    c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order)   
