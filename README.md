@@ -57,12 +57,11 @@ These results have been saved as csv's with their corresponding names above in t
 `article_1.csv`: Contains Wikipedia article data.  
 `quality_1.csv`: Contains quality scores for articles.  
 `wp_scored_city_articles_by_state.csv`: Merged dataset with state, regional division, population, article title, revision ID, and article quality.  
-Output files based on analysis results.  
+Output files based on analysis results. This has also been saved in the repository as instructed under the same name.  
 
 ## Known Issues and Special Considerations  
 Authentication: Ensure that you have obtained the required access token for the Wikimedia APIs.  
-Data Quality: Be aware that Wikipedia data can vary in quality, and the quality scores are estimations.  
-API Throttling: Take into consideration API throttling and latency when making requests.  
+Data Quality: Be aware that Wikipedia data can vary in quality, and the quality scores are estimations.   
 
 ## Research Implications   
 ### What biases did you expect to find in the data (before you started working with it), and why? 
