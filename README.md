@@ -10,6 +10,7 @@ This project utilizes data from various sources under different licenses:
 1. **Wikipedia Articles**: We access Wikipedia articles through the MediaWiki REST API.
 2. **US Census Data**: Population data for US states is sourced from the US Census Bureau.
 3. **Regional Division Data**: The regional divisions within the US are defined by the US Census Bureau.
+4. Some code examples were developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.0 - August 15, 2023   
 
 ## Data Sources
 [US Cities Wikipedia Dataset](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
@@ -24,7 +25,7 @@ This project utilizes data from various sources under different licenses:
 ## Hard-Coded Variables  
 Before running this code, you need to adjust the following variables:  
 - `ACCESS_TOKEN`: You must obtain a Wikimedia Access Token as described in the documentation.  
-- `File paths`: Ensure that file paths match your working environment.  
+- `Data Mounting`: This notebook was executed in Google Colab, and the data was obtained from [this](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv?usp=sharing) Google Drive folder and mounted into the notebook as per the code.
 
 ## Data Processing   
 The code performs the following data processing steps:  
