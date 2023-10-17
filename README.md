@@ -12,9 +12,9 @@ This project utilizes data from various sources under different licenses:
 3. **Regional Division Data**: The regional divisions within the US are defined by the US Census Bureau.
 
 ## Data Sources
-[US Cities Wikipedia Dataset
-US Census Bureau Population Data
-US Census Bureau Regional Division Data]([url](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv))
+[US Cities Wikipedia Dataset](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
+[US Census Bureau Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html)  
+[US Census Bureau Regional Division Data](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv)  
 
 ## API Documentation
 MediaWiki REST API
