@@ -1,5 +1,5 @@
-# data-512-homework_2
-Considering bias in data
+# DATA512 HW2
+# Considering bias in data
 
 ## Goal
 This project aims to explore the concept of bias in data using Wikipedia articles, specifically articles about cities in different US states. We'll combine datasets containing Wikipedia articles, and state populations, and utilize the ORES machine learning service to estimate the quality of these articles.
