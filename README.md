@@ -28,17 +28,22 @@ Before running this code, you need to adjust the following variables:
 - `Data Mounting`: This notebook was executed in Google Colab, and the data was obtained from [this](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv?usp=sharing) Google Drive folder and mounted into the notebook as per the code.
 
 ## Data Processing   
-The code performs the following data processing steps:  
-1. Accesses Wikipedia page information using the MediaWiki REST API.
+There are two steps here:  
+1. We will delve into the process of accessing page information data from the English Wikipedia through the MediaWiki REST API. Our aim is to obtain **concise page info data summaries for a variety of article pages.**  
+
+2. The next phase is where we leverage the **LiftWing ML Service API** to obtain **ORES scores** . By utilizing the LiftWing version of ORES, we can generate estimations of article quality for any changes made to articles.  
    
-3. Retrieves quality scores for Wikipedia articles using the ORES API.   
+In more detail, the code performs the following data processing steps:  
+1. **Accesses Wikipedia page information using the MediaWiki REST API.**  
+   
+3. **Retrieves quality scores for Wikipedia articles using the ORES API.**      
    a. There are articles in which we were unable to extract quality scores. These have been saved and listed within the notebook.
     
-5. Combines datasets and standardizes data.
+5. **Combines datasets and standardizes data.**   
    
-7. Conducts data analysis to calculate articles per capita and high-quality articles per capita.
+7. **Conducts data analysis to calculate articles per capita and high-quality articles per capita.**  
    
-9. Results from the analysis showcasing the following answers:   
+9. **Results from the analysis showcasing the following answers:**     
    a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order)   
    b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order)    
    c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order)   
