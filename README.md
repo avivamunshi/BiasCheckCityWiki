@@ -65,11 +65,18 @@ Data Quality: Be aware that Wikipedia data can vary in quality, and the quality 
 API Throttling: Take into consideration API throttling and latency when making requests.  
 
 ## Research Implications   
-Your README should include a section header called “Research Implications” after which you will include your write-up paragraphs. One of your paragraphs should reflect on what you have learned, what you found, what (if anything) surprised you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). In addition to any reflections you want to share about the process of the assignment, also, please respond (briefly) to at least three of the questions below:  
-What biases did you expect to find in the data (before you started working with it), and why?  
-What (potential) sources of bias did you discover in the course of your data processing and analysis?  
-What might your results suggest about (English) Wikipedia as a data source?  
-Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?  
-Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?  
-How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?  
+### What biases did you expect to find in the data (before you started working with it), and why? 
+Wikipedia editors are a key driving force behind the content on the platform. However, this editorial function brings with it the potential for biases, influenced by the interests, expertise, and potential personal biases of these editors. This aspect of bias can even extend to what are considered "high-quality" articles. Since the assessment of article quality is inherently **subjective**, topics and viewpoints that resonate more with the preferences of Wikipedia editors may receive higher ratings. I thought that since this assignment entailed working with Wikipedia data for research, there would be a lot of this **editorial bias**.   
+
+I also noticed that Wikipedia is avaliable in multiple languages, and thus some kind of **language bias** may creep in. I expected that articles in widely spoken languages, such as English or Spanish, would have more comprehensive coverage compared to articles in less common languages. This bias could affect the representation of information from different regions of the world.
+
+### What (potential) sources of bias did you discover in the course of your data processing and analysis?  
+Given the tech-savvy population on the West Coast, I definitely found it surprising to see that the Pacific Division had the fewest articles per capita. On the other hand, this region may have fewer towns than its population, which would explain the lower density of articles.
+
+### What might your results suggest about (English) Wikipedia as a data source?  
+I saw that Nebraska and Connecticut had no scraped content, which, in my opinion, points to possible issues with data completeness. Researchers like myself need to be ready for the possibility of data gaps and abnormalities while utilizing Wikipedia as a data source. They should investigate solutions for these problems, which can entail creating unique scraping algorithms made to fill in these gaps or applying statistical approaches to impute values into missing data.  
+
+### How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?  
+I definitely see scope to enhance the Wikipedia dataset by integrating external data sources, including census records, academic publications, and government documents. This integration serves to offer supplementary context and validation, effectively mitigating biases inherent in Wikipedia's content - and this data is also public. In order to account for data volatility, I also advise normalizing the data depending on regional parameters, such as population density or region-specific features.
+
 
