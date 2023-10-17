@@ -44,12 +44,13 @@ In more detail, the code performs the following data processing steps:
 7. **Conducts data analysis to calculate total-articles-per-population (a ratio representing the number of articles per person)  and high-quality-articles-per-population (a ratio representing the number of high-quality articles per person) on a state-by-state and divisional basis.**   
    
 9. **Results from the analysis showcasing the following answers:**     
-   a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order)   
-   b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order)    
-   c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order)   
-   d. Bottom 10 US states by high quality: The 10 US states with the lowest high quality articles per capita (in ascending order)   
-   e. Census divisions by total coverage: A rank ordered list of US census divisions (in descending order) by total articles per capita   
-   f. Census divisions by high quality coverage: Rank ordered list of US census divisions (in descending order) by high quality articles per capita   
+   a. Top 10 US states by coverage: The 10 US states with the highest total articles per capita (in descending order) - analysis_1  
+   b. Bottom 10 US states by coverage: The 10 US states with the lowest total articles per capita (in ascending order) - analysis_2       
+   c. Top 10 US states by high quality: The 10 US states with the highest high quality articles per capita (in descending order) - analysis_3       
+   d. Bottom 10 US states by high quality: The 10 US states with the lowest high quality articles per capita (in ascending order) - analysis_4       
+   e. Census divisions by total coverage: A rank ordered list of US census divisions (in descending order) by total articles per capita - analysis_5     
+   f. Census divisions by high quality coverage: Rank ordered list of US census divisions (in descending order) by high quality articles per capita - analysis_6  
+These results have been saved as csv's with their corresponding names above in the `results` folder of this repo.  
 
 
 ## Data Files  
