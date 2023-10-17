@@ -29,7 +29,7 @@ Before running this code, you need to adjust the following variables:
 - `Data Mounting`: This notebook was executed in Google Colab, and the data was obtained from [this](https://drive.google.com/drive/folders/1qzJcMILGuf_GjvfjwXizN5B8T9VUGhLv?usp=sharing) Google Drive folder and mounted into the notebook as per the code.
 
 ## Data Processing   
-There are two steps here:  
+The code has been saved in the folder `src` in the notebook `data_512_homework_2.ipynb`. This notebook follows these following two phases:  
 1. We will delve into the process of accessing page information data from the English Wikipedia through the MediaWiki REST API. Our aim is to obtain **concise page info data summaries for a variety of article pages.**  
 
 2. The next phase is where we leverage the **LiftWing ML Service API** to obtain **ORES scores** . By utilizing the LiftWing version of ORES, we can generate estimations of article quality for any changes made to articles.  
