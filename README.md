@@ -1,4 +1,4 @@
-# DATA512 HW2
+# BiasCheckCityWiki
 # Considering bias in data
 
 ## Goal
